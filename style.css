@@ -98,6 +98,15 @@ label,
     margin-bottom: 1.5rem;
 }
 
+.field-group.error #error-icon,
+.field-group.error #error-text {
+    display: block;
+}
+
+.field-group.error input {
+    border: 2px solid var(--Red);
+}
+
 .form-container form .field-group input {
     width: 100%;
     padding: 1.5rem 2rem;
